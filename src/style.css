@@ -64,7 +64,9 @@ h2 {
   margin: 25px;
 }
 
-.about-section h1 {
+.about-section h1,
+.work-container h1,
+.contact-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
@@ -114,6 +116,29 @@ h2 {
 
 .footer-container a {
   margin-left: 350px;
+}
+
+.footer-contact {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.footer-contact a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.work-container {
+  padding: 140px 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  padding: 140px 20px;
 }
 
 @media (max-width: 970px) {
