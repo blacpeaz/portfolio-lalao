@@ -30,7 +30,9 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <!--Bootstrap Menu Code below-->
+
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/"
           ><img src="/images/logo.png" class="img-fluid" width="150" alt=""
@@ -58,7 +60,32 @@
           </div>
         </div>
       </div>
-    </nav>
+    </nav> -->
+
+    <div class="container">
+      <nav class="d-flex justify-content-between nav">
+        <img src="/images/logo.png" class="logo d-none d-md-block" alt="" />
+        <img
+          src="/images/logo-symbol.jpg"
+          class="logo d-block d-md-none"
+          alt=""
+        />
+        <ul>
+          <li>
+            <a href="/"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html"> About</a>
+          </li>
+          <li>
+            <a href="/work.html"> Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container mt-5 pt-4">
       <div class="content text-center">
         <h1>Let's get in touch!</h1>
